@@ -9,4 +9,4 @@ function scuberGreetingForFeet(distance) {
   }
 }
 
-let response = scuberGreetingForFeet(199);
+scuberGreetingForFeet(199);
