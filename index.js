@@ -20,7 +20,7 @@ function ternaryCheckCity(city) {
   let destination = (city === "NYC")
     ? "Ok, sounds good."
     : "No go."
-    console.log("destination:", destination);
+  console.log("destination:", destination);
   return destination;
 }
 ternaryCheckCity("NYC");
