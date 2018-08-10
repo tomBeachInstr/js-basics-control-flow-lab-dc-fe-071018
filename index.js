@@ -12,7 +12,6 @@ function scuberGreetingForFeet(distance) {
     return "No can do.";
   }
 }
-scuberGreetingForFeet(2001);
 
 function ternaryCheckCity(city) {
   console.log("== ternaryCheckCity ==");
@@ -22,4 +21,19 @@ function ternaryCheckCity(city) {
   console.log("destination:", destination);
   return destination;
 }
-ternaryCheckCity("NYC");
+
+function switchOnCharmFromTip(tip) {
+  console.log("== switchOnCharmFromTip ==");
+
+  switch(tip) {
+      case n:
+          code block
+          break;
+      case n:
+          code block
+          break;
+      default:
+          code block
+  }
+}
+switchOnCharmFromTip("generous")
