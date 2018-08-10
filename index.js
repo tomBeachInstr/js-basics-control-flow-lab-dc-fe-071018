@@ -15,13 +15,15 @@ function scuberGreetingForFeet(distance) {
 }
 scuberGreetingForFeet(2001);
 
-function ternaryCheckCity(destination) {
+function ternaryCheckCity(city) {
   console.log("== ternaryCheckCity ==");
 
-  // destination === "NYC" ? 'Ok, sounds good.' : 'No go.';
+  city === "NYC"
+    ? travel = "Ok, sounds good."
+    : travel = "No go."
 
-  destination === "NYC"
-    ? return 'Ok, sounds good.'
-    : return 'No go.';
+  // destination === "NYC"
+  //   ? return 'Ok, sounds good.'
+  //   : return 'No go.';
 }
 ternaryCheckCity("NYC");
