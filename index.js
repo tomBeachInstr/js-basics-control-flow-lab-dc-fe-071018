@@ -13,5 +13,9 @@ function scuberGreetingForFeet(distance) {
     return "No can do.";
   }
 }
-
 scuberGreetingForFeet(2001);
+
+function ternaryCheckCity() {
+  console.log("== ternaryCheckCity ==");
+}
+ternaryCheckCity(2001);
